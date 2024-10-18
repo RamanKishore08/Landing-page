@@ -1,0 +1,30 @@
+.about {
+  padding: 80px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.4s ease-in-out;
+}
+
+.about h2 {
+  font-size: 3rem;
+  color: #033a12;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+}
+
+.about p {
+  font-size: 1.5rem;
+  margin: 20px auto;
+  line-height: 1.8;
+  color: #000000;
+  transition: transform 0.4s ease-in-out;
+}
+
+.about:hover p {
+  transform: translateY(-10px);
+  color: #000000;
+}
+
+.about:hover {
+  background: linear-gradient(to right, #9ef29f, #f0f8ff);
+}

@@ -1,0 +1,71 @@
+.benefits {
+  padding: 80px;
+  background: linear-gradient(to right, #ffffff, #f0f8ff);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.4s ease-in-out;
+}
+
+.benefits-intro {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.benefits h2 {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefit {
+  max-width: 300px;
+  padding: 20px;
+  border: 2px solid #450505;
+  border-radius: 8px;
+  background: white;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.benefit img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.benefit h3 {
+  font-size: 2rem;
+  margin: 15px 0;
+  color: #450505;
+}
+
+.benefit p {
+  font-size: 1.1rem;
+  color: #000000;
+  line-height: 1.5;
+
+}
+
+.benefit:hover {
+  transform: translateY(-5px);
+  border-color: #070707; 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to right, #e6e6fa, #f0f8ff);
+  
+}
+
+.benefits:hover {
+  background: linear-gradient(to right, #e8bcbc, #f0f8ff);
+}

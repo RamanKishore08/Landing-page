@@ -1,0 +1,52 @@
+.footer {
+    padding: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.4s ease;
+  }
+  
+  .footer-content {
+    margin-bottom: 20px;
+  }
+  
+  .social-media-container {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .social-media-box {
+    padding: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .social-media-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-media-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block; /* Ensure the link fills the box */
+    text-align: center; /* Center the link text */
+  }
+  
+  .social-media-link:hover {
+    color: #4caf50;
+    text-decoration: underline;
+  }
+  
+  .footer-info {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .footer:hover{
+    background-color: rgb(9, 9, 9);
+  }
